@@ -1,9 +1,10 @@
 import "./App.css";
+import PokerSlide from "./PokerSlide";
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <PokerSlide />
     </div>
   );
 }
