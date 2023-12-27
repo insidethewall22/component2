@@ -40,13 +40,13 @@ body {
 }
 
 .poker_top {
-  background-color: #fff;
+  opacity: 0;
   transition: 0.3s ease;
   cursor: pointer;
   z-index: 1000;
 }
 
-/* .poker1 {
+.poker1 {
   transform: rotate(-10deg);
 }
 
@@ -63,4 +63,4 @@ body {
 
 .poker5 {
   transform: rotate(6deg) translate(125%, -23%);
-} */
+}

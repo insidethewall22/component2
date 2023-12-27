@@ -7,12 +7,12 @@ const Poker = forwardRef(({ num, imgNum, index, transform }, ref) => {
       style={{
         transform: transform,
         zIndex: num,
-        transition: "transform 0.5s ease",
+        transition: num === 1 ? "" : "transform 1s ease",
       }}
       ref={ref}
       className={`poker poker${index + 1}`}
     >
-      <img src={require(`./images/photo_${index}.jpg`)} />
+      <img src={require(`./images/photo_${imgNum}.jpg`)} />
     </div>
   );
 });

@@ -1,23 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: black;
+html {
+  width: auto;
 }
 .container {
-  position: absolute;
-  width: 45rem;
-  height: 25rem;
-  margin-bottom: 1rem;
+  /* position: absolute; */
+  left: 20%;
+  top: 20%;
+  /* width: 50rem;
+  height: auto; */
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+  /* /* } */
 }
-
 .poker,
 .poker_top {
   position: absolute;
@@ -36,6 +30,7 @@ body {
 }
 
 .poker_top {
+  opacity: 0;
   background-color: #fff;
   transition: 0.3s ease;
   cursor: pointer;
